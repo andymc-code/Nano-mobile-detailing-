@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Pages -->
+  <url>
+    <loc>https://www.convenientcarspa.com/</loc>
+    <lastmod>2024-05-21</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.convenientcarspa.com/#/booking</loc>
+    <lastmod>2024-05-21</lastmod>
+    <priority>0.80</priority>
+  </url>
+  
+  <!-- Services -->
+  <url><loc>https://www.convenientcarspa.com/#/exterior-detailing</loc><priority>0.90</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/interior-restoration</loc><priority>0.90</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/deep-interior-shampoo</loc><priority>0.90</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/ceramic-coating</loc><priority>0.90</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/paint-correction</loc><priority>0.90</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/black-trim-restoration</loc><priority>0.90</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/odor-elimination</loc><priority>0.90</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/mold-removal</loc><priority>0.90</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/fleet-detailing</loc><priority>0.90</priority></url>
+
+  <!-- Major Location Pages (Hand-Curated) -->
+  <url><loc>https://www.convenientcarspa.com/#/locations/vancouver/mobile-car-detailing</loc><priority>0.95</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/burnaby/mobile-car-detailing</loc><priority>0.90</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/richmond/mobile-car-detailing</loc><priority>0.90</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/west-vancouver/mobile-car-detailing</loc><priority>0.90</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/surrey/mobile-car-detailing</loc><priority>0.90</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/langley/mobile-car-detailing</loc><priority>0.90</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/north-vancouver/mobile-car-detailing</loc><priority>0.90</priority></url>
+
+  <!-- Dynamic Landing Pages (Scaled SEO: City + Service) -->
+  <!-- Ceramic Coating Locations -->
+  <url><loc>https://www.convenientcarspa.com/#/locations/vancouver/ceramic-coating</loc><priority>0.85</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/burnaby/ceramic-coating</loc><priority>0.85</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/richmond/ceramic-coating</loc><priority>0.85</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/coquitlam/ceramic-coating</loc><priority>0.85</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/surrey/ceramic-coating</loc><priority>0.85</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/white-rock/ceramic-coating</loc><priority>0.85</priority></url>
+
+  <!-- Interior Restoration Locations -->
+  <url><loc>https://www.convenientcarspa.com/#/locations/coquitlam/interior-restoration</loc><priority>0.85</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/port-coquitlam/interior-restoration</loc><priority>0.85</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/port-moody/interior-restoration</loc><priority>0.85</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/new-westminster/interior-restoration</loc><priority>0.85</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/delta/interior-restoration</loc><priority>0.85</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/maple-ridge/interior-restoration</loc><priority>0.85</priority></url>
+  
+  <!-- Shampoo Locations -->
+  <url><loc>https://www.convenientcarspa.com/#/locations/burnaby/deep-interior-shampoo</loc><priority>0.80</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/surrey/deep-interior-shampoo</loc><priority>0.80</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/langley/deep-interior-shampoo</loc><priority>0.80</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/pitt-meadows/deep-interior-shampoo</loc><priority>0.80</priority></url>
+
+  <!-- Fleet Locations -->
+  <url><loc>https://www.convenientcarspa.com/#/locations/delta/fleet-detailing</loc><priority>0.80</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/richmond/fleet-detailing</loc><priority>0.80</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/burnaby/fleet-detailing</loc><priority>0.80</priority></url>
+
+  <!-- Mold Removal Locations -->
+  <url><loc>https://www.convenientcarspa.com/#/locations/vancouver/mold-removal</loc><priority>0.80</priority></url>
+  <url><loc>https://www.convenientcarspa.com/#/locations/north-vancouver/mold-removal</loc><priority>0.80</priority></url>
+</urlset>
