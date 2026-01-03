@@ -6,7 +6,6 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import BookingPage from './pages/BookingPage';
 import AboutPage from './pages/AboutPage';
-import ServicesPage from './pages/ServicesPage';
 import PricingPage from './pages/PricingPage';
 import ReviewsPage from './pages/ReviewsPage';
 import ContactPage from './pages/ContactPage';
@@ -23,7 +22,14 @@ import MoldRemovalPage from './pages/MoldRemovalPage';
 import FleetDetailingPage from './pages/FleetDetailingPage';
 import DeepInteriorShampooPage from './pages/DeepInteriorShampooPage';
 
-// Location Pages (Specific)
+// Services Sub-Pages
+import ServicesLayout from './pages/services/ServicesLayout';
+import SpecializedPage from './pages/services/SpecializedPage';
+import PackagesPage from './pages/services/PackagesPage';
+import ProcessPage from './pages/services/ProcessPage';
+import AddonsPage from './pages/services/AddonsPage';
+
+// Location Pages
 import VancouverPage from './pages/locations/VancouverPage';
 import BurnabyPage from './pages/locations/BurnabyPage';
 import RichmondPage from './pages/locations/RichmondPage';
@@ -45,7 +51,6 @@ const ScrollToTop = () => {
   return null;
 };
 
-
 const App: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen">
@@ -55,7 +60,15 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/services" element={<ServicesPage />} />
+          
+          {/* Multi-Page Services Refactor */}
+          <Route path="/services" element={<ServicesLayout />}>
+            <Route index element={<SpecializedPage />} />
+            <Route path="packages" element={<PackagesPage />} />
+            <Route path="how-it-works" element={<ProcessPage />} />
+            <Route path="add-ons" element={<AddonsPage />} />
+          </Route>
+
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/reviews" element={<ReviewsPage />} />
           <Route path="/contact" element={<ContactPage />} />
@@ -74,7 +87,6 @@ const App: React.FC = () => {
           <Route path="/fleet-detailing" element={<FleetDetailingPage />} />
           <Route path="/official-info" element={<OfficialInfoPage />} />
           
-          {/* Specific Location Routes (Priority) */}
           <Route path="/locations/vancouver/mobile-car-detailing" element={<VancouverPage />} />
           <Route path="/locations/burnaby/mobile-car-detailing" element={<BurnabyPage />} />
           <Route path="/locations/richmond/mobile-car-detailing" element={<RichmondPage />} />
@@ -83,9 +95,7 @@ const App: React.FC = () => {
           <Route path="/locations/langley/mobile-car-detailing" element={<LangleyPage />} />
           <Route path="/locations/north-vancouver/mobile-car-detailing" element={<NorthVancouverPage />} />
 
-          {/* Dynamic Catch-All for Scalable SEO Landing Pages */}
           <Route path="/locations/:city/:service" element={<DynamicLandingPage />} />
-
         </Routes>
       </main>
       <Footer />
