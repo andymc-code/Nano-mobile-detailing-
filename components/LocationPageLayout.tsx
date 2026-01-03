@@ -1,3 +1,4 @@
+
 import React, { useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import Breadcrumb from './Breadcrumb';
@@ -36,11 +37,11 @@ const LocationPageLayout: React.FC<LocationPageLayoutProps> = ({
     const localBusinessSchema = useMemo(() => ({
       "@context": "https://schema.org",
       "@type": "AutoDetailing",
-      "name": "Convenient Car Spa",
+      "name": "Nano Mobile Detailing",
       "description": `Mobile car detailing and car wash services in ${city}.`,
       "image": imageUrl,
       "url": window.location.href,
-      "telephone": "+1-604-555-0101",
+      "telephone": "+1-778-251-5604",
       "priceRange": "$$$",
       "areaServed": {
         "@type": "Place",

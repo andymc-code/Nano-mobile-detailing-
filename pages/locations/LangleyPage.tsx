@@ -1,17 +1,18 @@
+
 import React from 'react';
 import LocationPageLayout from '../../components/LocationPageLayout';
 
 const IconDust = () => <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m3-3h-6m2-8a4 4 0 100 8 4 4 0 000-8z" /></svg>;
 const IconFamily = () => <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.653-.28-1.25-1-1.657M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.653.28-1.25 1-1.657m10-4l-3-3m0 0l-3 3m3-3v12" /></svg>;
 const IconShield = () => <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>;
-const IconCheck = () => <svg className="w-6 h-6 text-brand-accent mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>;
+const IconCheck = () => <svg className="w-6 h-6 text-brand-accent mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7"></path></svg>;
 
 const LangleyPage: React.FC = () => {
   return (
     <LocationPageLayout
       city="Langley"
-      metaTitle="Mobile Car Detailing in Langley | Convenient Car Spa"
-      metaDescription="Convenient Car Spa brings professional mobile auto detailing to Langley, BC. Serving Walnut Grove, Fort Langley, and more. We specialize in family vehicle cleaning. Book today!"
+      metaTitle="Mobile Car Detailing in Langley | Nano Mobile Detailing"
+      metaDescription="Nano Mobile Detailing brings professional mobile auto detailing to Langley, BC. Serving Walnut Grove, Fort Langley, and more. Book today!"
       h1="Mobile Car Detailing in Langley"
       imageUrl="https://ik.imagekit.io/wnwu0xxx5/Auto_detailing/langley_location_img.jpg?updatedAt=1759733031041"
       geo={{ latitude: '49.1042', longitude: '-122.5834' }}
@@ -19,7 +20,7 @@ const LangleyPage: React.FC = () => {
         <div className="space-y-6 text-lg">
             <h2 className="text-3xl font-bold font-display text-brand-text-primary border-l-4 border-brand-accent pl-4">Langley's Premier At-Home Car Detailing Service</h2>
             <p>
-                Convenient Car Spa is proud to extend our professional mobile detailing services to the Township and City of Langley. We know that Langley is a place where community and family are central, and life can be busy. That's why we've designed a service that brings the highest quality car care right to your front door. Forget about driving to a shop; our fully self-contained mobile detailing unit will transform your vehicle in your own driveway while you relax or spend time with family.
+                Nano Mobile Detailing is proud to extend our professional mobile detailing services to the Township and City of Langley. We know that Langley is a place where community and family are central, and life can be busy. That's why we've designed a service that brings the highest quality car care right to your front door. Forget about driving to a shop; our fully self-contained mobile detailing unit will transform your vehicle in your own driveway while you relax or spend time with family.
             </p>
         </div>
 
@@ -56,11 +57,11 @@ const LangleyPage: React.FC = () => {
             <p className="text-lg">We recommend these services for the typical Langley vehicle:</p>
             <ul className="space-y-4 mt-6 text-lg">
                 <li className="flex items-start"><IconCheck /><span><strong>Interior Restoration:</strong> Our most popular service in Langley for a reason. We use steam and hot water extraction to safely and effectively remove the toughest grime from carpets, seats, and floor mats.</span></li>
-                <li className="flex items-start"><IconCheck /><span><strong>Convenient Plus Package:</strong> A fantastic value that combines our thorough interior vacuum and wipe-down with a complete exterior wash, decontamination, and a durable 6-month paint sealant.</span></li>
+                <li className="flex items-start"><IconCheck /><span><strong>Basic Detail Package:</strong> A fantastic value that combines our thorough interior vacuum and wipe-down with a complete exterior wash, decontamination, and a durable 6-month paint sealant.</span></li>
                 <li className="flex items-start"><IconCheck /><span><strong>Exterior Detailing:</strong> Get a deep clean that removes road film and dust, followed by a protective layer that adds incredible shine and makes maintenance a breeze.</span></li>
             </ul>
              <p className="mt-6 text-lg">
-                Experience the difference of a truly professional and convenient car detailing service. Contact Convenient Car Spa to book your appointment in Langley today.
+                Experience the difference of a truly professional and convenient car care service. Contact Nano Mobile Detailing to book your appointment in Langley today.
             </p>
         </div>
     </LocationPageLayout>

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import LocationPageLayout from '../components/LocationPageLayout';
@@ -11,19 +12,15 @@ const DynamicLandingPage: React.FC = () => {
     const cityData = SEO_CITIES[cityKey];
 
     // 2. Validate Service
-    // Clean up the service slug (e.g. remove -service suffix if present, though strictly we match exact slugs)
-    // Find service by checking if the link contains the slug
     const serviceData = SERVICES_DATA.find(s => s.link.substring(1) === service);
 
     if (!cityData || !serviceData) {
-        // If the combination doesn't exist, we could redirect to home or 404. 
-        // For now, let's redirect to home to keep traffic.
         return <Navigate to="/" replace />;
     }
 
     // 3. Generate Dynamic Content
-    const metaTitle = `${serviceData.name} in ${cityData.name} | Mobile Service`;
-    const metaDescription = `Looking for ${serviceData.name} in ${cityData.name}? Convenient Car Spa brings professional mobile detailing to your home or office. Book your appointment today!`;
+    const metaTitle = `${serviceData.name} in ${cityData.name} | Nano Mobile Detailing`;
+    const metaDescription = `Looking for ${serviceData.name} in ${cityData.name}? Nano Mobile Detailing brings professional mobile car care to your home or office. Book today!`;
     const h1 = `${serviceData.name} in ${cityData.name}`;
 
     return (
@@ -41,12 +38,12 @@ const DynamicLandingPage: React.FC = () => {
                         Professional {serviceData.name}, Delivered to Your Doorstep in {cityData.name}
                     </h2>
                     <p className="text-xl text-brand-text-secondary">
-                        Why waste time driving to a shop? We bring the car spa experience directly to you.
+                        Why waste time driving to a shop? We bring the car care experience directly to you.
                     </p>
                 </div>
 
                 <p>
-                    Convenient Car Spa is the premier provider of <strong>{serviceData.name}</strong> services for residents and businesses in <strong>{cityData.name}</strong>. 
+                    Nano Mobile Detailing is the premier provider of <strong>{serviceData.name}</strong> services for residents and businesses in <strong>{cityData.name}</strong>. 
                     Whether you are at home, at the office, or at an apartment complex, our fully self-contained mobile unit is equipped to deliver showroom-quality results without you lifting a finger.
                 </p>
 
@@ -81,7 +78,7 @@ const DynamicLandingPage: React.FC = () => {
                 </div>
 
                 <div className="space-y-6">
-                    <h3 className="text-2xl font-bold font-display text-white">Why Choose Mobile {serviceData.name} in {cityData.name}?</h3>
+                    <h3 className="text-2xl font-bold font-display text-white">Why Choose Nano Mobile {serviceData.name} in {cityData.name}?</h3>
                     <ul className="space-y-4">
                         <li className="flex items-start">
                             <svg className="w-6 h-6 text-brand-accent mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>

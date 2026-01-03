@@ -1,9 +1,10 @@
+
 import React from 'react';
 import { usePageMetadata } from '../hooks/usePageMetadata';
 import { getWhatsAppLink, DEFAULT_WHATSAPP_MESSAGE } from '../constants';
 
 const BookingPage: React.FC = () => {
-    usePageMetadata('Book Mobile Detailing via WhatsApp | Convenient Car Spa', 'Schedule your mobile car detailing service in Vancouver by contacting us on WhatsApp. Quick, easy, and personal booking experience.');
+    usePageMetadata('Book Mobile Detailing via WhatsApp | Nano Mobile Detailing', 'Schedule your mobile car detailing service in Vancouver by contacting Nano Mobile Detailing on WhatsApp. Quick, easy, and personal booking experience.');
     
     return (
         <div className="bg-brand-dark-bg py-20 min-h-[60vh] flex items-center">
@@ -18,7 +19,7 @@ const BookingPage: React.FC = () => {
                             href={getWhatsAppLink(DEFAULT_WHATSAPP_MESSAGE)} 
                             target="_blank" 
                             rel="noopener noreferrer" 
-                            className="inline-block bg-brand-accent text-brand-dark-bg font-bold py-4 px-10 rounded-md text-xl hover:opacity-90 transition-all duration-300 transform hover:scale-105 uppercase tracking-widest font-display"
+                            className="inline-block bg-brand-gold text-brand-dark-bg font-bold py-4 px-10 rounded-full text-xl hover:opacity-90 transition-all duration-300 transform hover:scale-105 uppercase tracking-widest font-display"
                         >
                             Book Now
                         </a>

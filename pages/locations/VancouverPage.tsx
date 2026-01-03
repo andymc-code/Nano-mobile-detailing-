@@ -1,3 +1,4 @@
+
 import React from 'react';
 import LocationPageLayout from '../../components/LocationPageLayout';
 
@@ -10,8 +11,8 @@ const VancouverPage: React.FC = () => {
   return (
     <LocationPageLayout
       city="Vancouver"
-      metaTitle="Mobile Car Detailing in Vancouver | Convenient Car Spa"
-      metaDescription="Convenient Car Spa offers premium mobile auto detailing and car wash services in Vancouver. We come to you in Yaletown, Kitsilano, or Downtown. Book today!"
+      metaTitle="Mobile Car Detailing in Vancouver | Nano Mobile Detailing"
+      metaDescription="Nano Mobile Detailing offers premium mobile auto detailing and car wash services in Vancouver. We come to you in Yaletown, Kitsilano, or Downtown. Book today!"
       h1="Mobile Car Detailing in Vancouver"
       imageUrl="https://ik.imagekit.io/wnwu0xxx5/Auto_detailing/matt-wang-dBp9dbQCh4Q-unsplash.jpg?updatedAt=1759732296928"
       geo={{ latitude: '49.2827', longitude: '-123.1207' }}
@@ -19,7 +20,7 @@ const VancouverPage: React.FC = () => {
         <div className="space-y-6 text-lg">
             <h2 className="text-3xl font-bold font-display text-brand-text-primary border-l-4 border-brand-accent pl-4">Your Premier Mobile Detailing Service in Vancouver, BC</h2>
             <p>
-                Welcome to Convenient Car Spa, Vancouver's top choice for professional mobile auto detailing. In a city as vibrant and fast-paced as ours, finding time to take your vehicle to a traditional detailer is a luxury not everyone has. That's where we come in. We bring the complete, premium car spa experience directly to your home, apartment, or office, anywhere in Vancouver. From the bustling streets of Downtown to the serene avenues of Kitsilano, our fully-equipped mobile units are ready to restore your vehicle's brilliance.
+                Welcome to Nano Mobile Detailing, Vancouver's top choice for professional mobile auto detailing. In a city as vibrant and fast-paced as ours, finding time to take your vehicle to a traditional detailer is a luxury not everyone has. That's where we come in. We bring the complete, premium car care experience directly to your home, apartment, or office, anywhere in Vancouver. From the bustling streets of Downtown to the serene avenues of Kitsilano, our fully-equipped mobile units are ready to restore your vehicle's brilliance.
             </p>
             <p>
                 We understand the unique challenges Vancouver car owners face. The persistent rain ("liquid sunshine") leaves stubborn water spots, the sea salt air from the coast can accelerate corrosion, and tight condo parkades make washing your own car nearly impossible. Our services are specifically designed to combat these local issues, providing your vehicle with the protection it needs to look its best in the Pacific Northwest climate.
@@ -45,7 +46,7 @@ const VancouverPage: React.FC = () => {
         <div className="my-16">
             <h2 className="text-3xl font-bold font-display text-brand-text-primary border-l-4 border-brand-accent pl-4 mb-8">Why Choose Our Mobile Service in Vancouver?</h2>
             <p className="text-lg mb-8">
-                Choosing Convenient Car Spa means choosing unparalleled convenience without compromising on quality. We solve the key challenges Vancouver car owners face:
+                Choosing Nano Mobile Detailing means choosing unparalleled convenience without compromising on quality. We solve the key challenges Vancouver car owners face:
             </p>
             <div className="space-y-8">
                 <div className="flex items-start space-x-4"><div className="flex-shrink-0 bg-brand-accent/10 text-brand-accent rounded-full p-3"><IconRain /></div><div><h3 className="text-xl font-semibold text-brand-text-primary">The Rain Factor</h3><p className="text-brand-text-secondary mt-1">Vancouver's constant drizzle can leave mineral-rich water spots that etch into your paint. Our paint decontamination and sealant services create a hydrophobic barrier, making water bead and roll off, keeping your car cleaner for longer.</p></div></div>
@@ -58,7 +59,7 @@ const VancouverPage: React.FC = () => {
             <h2 className="text-3xl font-bold font-display text-brand-text-primary border-l-4 border-brand-accent pl-4 mb-6">Our Comprehensive Mobile Detailing Packages</h2>
             <p className="text-lg">We offer a range of services to meet the diverse needs of Vancouver drivers. Our most popular options include:</p>
             <ul className="space-y-4 mt-6 text-lg">
-                <li className="flex items-start"><IconCheck /><span><strong>Convenient Plus Package:</strong> Our most popular choice, this package includes a thorough exterior wash, paint decontamination, a durable 6-month paint sealant, plus a full interior vacuum and wipe-down.</span></li>
+                <li className="flex items-start"><IconCheck /><span><strong>Basic Detail Package:</strong> Our most popular choice, this package includes a thorough exterior wash, paint decontamination, a durable 6-month paint sealant, plus a full interior vacuum and wipe-down.</span></li>
                 <li className="flex items-start"><IconCheck /><span><strong>Interior Restoration:</strong> Ideal for families or pet owners. We perform a deep clean of all interior surfaces, including steam cleaning and hot water extraction, to remove stains, eliminate odors, and sanitize your cabin.</span></li>
                 <li className="flex items-start"><IconCheck /><span><strong>Ceramic Coating:</strong> For the ultimate long-term protection against Vancouver's harsh weather. A ceramic coating provides years of gloss, scratch resistance, and makes washing your car incredibly easy.</span></li>
             </ul>

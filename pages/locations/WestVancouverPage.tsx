@@ -1,3 +1,4 @@
+
 import React from 'react';
 import LocationPageLayout from '../../components/LocationPageLayout';
 
@@ -10,8 +11,8 @@ const WestVancouverPage: React.FC = () => {
   return (
     <LocationPageLayout
       city="West Vancouver"
-      metaTitle="Mobile Car Detailing in West Vancouver | Convenient Car Spa"
-      metaDescription="Premium mobile auto detailing for luxury vehicles in West Vancouver. We serve Ambleside, Dundarave, and the British Properties. Ceramic coatings and paint correction at your home."
+      metaTitle="Mobile Car Detailing in West Vancouver | Nano Mobile Detailing"
+      metaDescription="Premium mobile auto detailing for luxury vehicles in West Vancouver by Nano Mobile Detailing. We serve Ambleside, Dundarave, and the British Properties."
       h1="Mobile Car Detailing in West Vancouver"
       imageUrl="https://ik.imagekit.io/wnwu0xxx5/Auto_detailing/matt-wang-dBp9dbQCh4Q-unsplash.jpg?updatedAt=1759732296928"
       geo={{ latitude: '49.3208', longitude: '-123.1424' }}
@@ -19,7 +20,7 @@ const WestVancouverPage: React.FC = () => {
         <div className="space-y-6 text-lg">
             <h2 className="text-3xl font-bold font-display text-brand-text-primary border-l-4 border-brand-accent pl-4">The Gold Standard in Mobile Detailing for West Vancouver</h2>
             <p>
-                Convenient Car Spa provides an elite, discreet, and professional mobile detailing service tailored for the discerning residents of West Vancouver. We understand that your vehicle is more than just transportation—it's a significant investment. Our service brings a world-class detailing experience to your private driveway or garage, delivering meticulous results that meet the highest standards, all at your convenience.
+                Nano Mobile Detailing provides an elite, discreet, and professional mobile care service tailored for the discerning residents of West Vancouver. We understand that your vehicle is more than just transportation—it's a significant investment. Our service brings a world-class detailing experience to your private driveway or garage, delivering meticulous results that meet the highest standards, all at your convenience.
             </p>
         </div>
 
@@ -56,10 +57,10 @@ const WestVancouverPage: React.FC = () => {
             <ul className="space-y-4 mt-6 text-lg">
                 <li className="flex items-start"><IconCheck /><span><strong>Ceramic Coating:</strong> This is our most recommended service for West Vancouver. It provides unmatched gloss, scratch resistance, and hydrophobic properties, ensuring your luxury vehicle stays looking immaculate for years.</span></li>
                 <li className="flex items-start"><IconCheck /><span><strong>Paint Correction:</strong> Before any protection is applied, the paint must be flawless. Our multi-stage paint correction process removes swirl marks and fine scratches, creating a perfect, mirror-like finish.</span></li>
-                <li className="flex items-start"><IconCheck /><span><strong>Convenient Premier Package:</strong> Our most comprehensive package includes a one-step polish and sealant, deep interior cleaning with leather conditioning, and engine bay detailing for a complete vehicle rejuvenation.</span></li>
+                <li className="flex items-start"><IconCheck /><span><strong>Basic Detail Package:</strong> Our essential comprehensive package includes paint decontamination and sealant, deep interior cleaning, and meticulous attention to every surface.</span></li>
             </ul>
              <p className="mt-6 text-lg">
-                Entrust your vehicle to the experts at Convenient Car Spa. Contact us today to schedule a consultation or book our premium mobile detailing service in West Vancouver.
+                Entrust your vehicle to the experts at Nano Mobile Detailing. Contact us today to schedule a consultation or book our premium mobile detailing service in West Vancouver.
             </p>
         </div>
     </LocationPageLayout>

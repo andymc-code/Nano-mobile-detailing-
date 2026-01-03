@@ -1,17 +1,18 @@
+
 import React from 'react';
 import LocationPageLayout from '../../components/LocationPageLayout';
 
 const IconHiker = () => <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>;
 const IconTree = () => <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" /><path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>;
 const IconClock = () => <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>;
-const IconCheck = () => <svg className="w-6 h-6 text-brand-accent mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>;
+const IconCheck = () => <svg className="w-6 h-6 text-brand-accent mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7"></path></svg>;
 
 const NorthVancouverPage: React.FC = () => {
   return (
     <LocationPageLayout
       city="North Vancouver"
-      metaTitle="Mobile Car Detailing in North Vancouver | Convenient Car Spa"
-      metaDescription="Get professional mobile car detailing on the North Shore. Convenient Car Spa serves Lonsdale, Edgemont, and all of North Vancouver. We remove tree sap and trail grime. Book now!"
+      metaTitle="Mobile Car Detailing in North Vancouver | Nano Mobile Detailing"
+      metaDescription="Get professional mobile car detailing on the North Shore from Nano Mobile Detailing. We serve Lonsdale, Edgemont, and all of North Vancouver. Book now!"
       h1="Mobile Car Detailing in North Vancouver"
       imageUrl="https://ik.imagekit.io/wnwu0xxx5/Auto_detailing/priscilla-du-preez-Vm0nC-VKFTc-unsplash.jpg?updatedAt=1759732298519"
       geo={{ latitude: '49.3167', longitude: '-123.0667' }}
@@ -19,7 +20,7 @@ const NorthVancouverPage: React.FC = () => {
         <div className="space-y-6 text-lg">
             <h2 className="text-3xl font-bold font-display text-brand-text-primary border-l-4 border-brand-accent pl-4">Your North Shore Mobile Detailing Specialists</h2>
             <p>
-                Convenient Car Spa is proud to offer our premium, on-demand mobile auto detailing services to the City and District of North Vancouver. We know that North Shore residents value quality, efficiency, and an active lifestyle. Our mobile service is perfectly aligned with these values, delivering meticulous, professional results at your home or office, so you can spend less time on errands and more time enjoying the incredible natural playground at your doorstep.
+                Nano Mobile Detailing is proud to offer our premium, on-demand mobile care services to the City and District of North Vancouver. We know that North Shore residents value quality, efficiency, and an active lifestyle. Our mobile service is perfectly aligned with these values, delivering meticulous, professional results at your home or office, so you can spend less time on errands and more time enjoying the incredible natural playground at your doorstep.
             </p>
         </div>
 
@@ -53,11 +54,11 @@ const NorthVancouverPage: React.FC = () => {
             <p className="text-lg">We recommend these services to perfectly match the North Shore lifestyle:</p>
             <ul className="space-y-4 mt-6 text-lg">
                 <li className="flex items-start"><IconCheck /><span><strong>Interior Restoration:</strong> Our number one service for active North Shore residents. We deep clean and sanitize your vehicle's interior, making it a pleasant place to be after any adventure.</span></li>
-                <li className="flex items-start"><IconCheck /><span><strong>Convenient Plus Package:</strong> Get the best of both worlds. A thorough exterior cleaning with a 6-month protective sealant to guard against tree sap, combined with a full interior vacuum and cleaning.</span></li>
+                <li className="flex items-start"><IconCheck /><span><strong>Basic Detail Package:</strong> Get the best of both worlds. A thorough exterior cleaning with a 6-month protective sealant to guard against tree sap, combined with a full interior vacuum and cleaning.</span></li>
                 <li className="flex items-start"><IconCheck /><span><strong>Ceramic Coating:</strong> For the ultimate, long-term defense against the North Shore's unique environment. A ceramic coating makes your vehicle incredibly easy to clean, meaning mud and grime wash away with ease.</span></li>
             </ul>
             <p className="mt-6 text-lg">
-                Embrace the convenience of a mobile detailing service that understands your lifestyle. Contact Convenient Car Spa today to schedule your appointment in North Vancouver and keep your vehicle looking as stunning as its surroundings.
+                Embrace the convenience of a mobile detailing service that understands your lifestyle. Contact Nano Mobile Detailing today to schedule your appointment in North Vancouver and keep your vehicle looking as stunning as its surroundings.
             </p>
         </div>
     </LocationPageLayout>

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import LocationPageLayout from '../../components/LocationPageLayout';
 
@@ -10,8 +11,8 @@ const RichmondPage: React.FC = () => {
   return (
     <LocationPageLayout
       city="Richmond"
-      metaTitle="Mobile Car Detailing in Richmond | Convenient Car Spa"
-      metaDescription="Top-rated mobile car detailing and wash services in Richmond, BC. We serve Steveston, City Centre, and more. Protect your car from salt spray. Book your at-home service!"
+      metaTitle="Mobile Car Detailing in Richmond | Nano Mobile Detailing"
+      metaDescription="Top-rated mobile car detailing and wash services in Richmond, BC by Nano Mobile Detailing. We serve Steveston, City Centre, and more. Protect your car from salt spray. Book now!"
       h1="Mobile Car Detailing in Richmond"
       imageUrl="https://ik.imagekit.io/wnwu0xxx5/Auto_detailing/matt-wang-dBp9dbQCh4Q-unsplash.jpg?updatedAt=1759732296928"
       geo={{ latitude: '49.1666', longitude: '-123.1336' }}
@@ -19,7 +20,7 @@ const RichmondPage: React.FC = () => {
         <div className="space-y-6 text-lg">
             <h2 className="text-3xl font-bold font-display text-brand-text-primary border-l-4 border-brand-accent pl-4">Expert Mobile Auto Detailing Comes to Richmond</h2>
             <p>
-                Convenient Car Spa is your trusted local provider for professional mobile car detailing services throughout Richmond, BC. We bring our fully equipped, self-sufficient detailing studio to you, whether you're at home, at work, or even at the marina. We understand that your time is valuable, and our mission is to provide a flawless, convenient service that fits your schedule and protects your vehicle from the unique environmental conditions of our island city.
+                Nano Mobile Detailing is your trusted local provider for professional mobile car detailing services throughout Richmond, BC. We bring our fully equipped, self-sufficient detailing studio to you, whether you're at home, at work, or even at the marina. We understand that your time is valuable, and our mission is to provide a flawless, convenient service that fits your schedule and protects your vehicle from the unique environmental conditions of our island city.
             </p>
         </div>
 
@@ -55,12 +56,12 @@ const RichmondPage: React.FC = () => {
             <h2 className="text-3xl font-bold font-display text-brand-text-primary border-l-4 border-brand-accent pl-4 mb-6">Our Recommended Services for Richmond Vehicles</h2>
             <p className="text-lg">We suggest the following services to combat Richmond's unique climate:</p>
             <ul className="space-y-4 mt-6 text-lg">
-                <li className="flex items-start"><IconCheck /><span><strong>Convenient Plus Package:</strong> The perfect all-around package for Richmond. It combines a deep exterior cleaning and a durable 6-month paint sealant to fight off salt and grime, plus a full interior vacuum and wipe-down.</span></li>
+                <li className="flex items-start"><IconCheck /><span><strong>Basic Detail Package:</strong> The perfect all-around package for Richmond. It combines a deep exterior cleaning and a durable 6-month paint sealant to fight off salt and grime, plus a full interior vacuum and wipe-down.</span></li>
                 <li className="flex items-start"><IconCheck /><span><strong>Durable Paint Sealant:</strong> An essential upgrade for any Richmond driver. A step up from traditional wax, our sealant offers months of protection against the elements, making your car much easier to maintain.</span></li>
                 <li className="flex items-start"><IconCheck /><span><strong>Ceramic Coating:</strong> For the ultimate peace of mind, a ceramic coating offers years of protection. Its robust chemical resistance is ideal for combating the salty, humid environment of our coastal city.</span></li>
             </ul>
             <p className="mt-6 text-lg">
-                Protect your investment and enjoy the convenience of detailing that comes to you. Contact Convenient Car Spa today to schedule your mobile detailing appointment in Richmond and give your vehicle the specialized care it needs.
+                Protect your investment and enjoy the convenience of detailing that comes to you. Contact Nano Mobile Detailing today to schedule your mobile detailing appointment in Richmond and give your vehicle the specialized care it needs.
             </p>
         </div>
     </LocationPageLayout>

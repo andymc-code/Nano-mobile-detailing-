@@ -1,3 +1,4 @@
+
 import React from 'react';
 import LocationPageLayout from '../../components/LocationPageLayout';
 
@@ -10,8 +11,8 @@ const BurnabyPage: React.FC = () => {
   return (
     <LocationPageLayout
       city="Burnaby"
-      metaTitle="Mobile Car Detailing in Burnaby | Convenient Car Spa"
-      metaDescription="Convenient Car Spa delivers professional mobile auto detailing to Burnaby. Serving Metrotown, Brentwood, and Edmonds. Get a showroom shine at your home or office. Book now!"
+      metaTitle="Mobile Car Detailing in Burnaby | Nano Mobile Detailing"
+      metaDescription="Nano Mobile Detailing delivers professional mobile auto detailing to Burnaby. Serving Metrotown, Brentwood, and Edmonds. Get a showroom shine at your home or office. Book now!"
       h1="Mobile Car Detailing in Burnaby"
       imageUrl="https://ik.imagekit.io/wnwu0xxx5/Auto_detailing/dania-shaeeb-DBpyrJ1XOtI-unsplash.jpg?updatedAt=1759732297218"
       geo={{ latitude: '49.2488', longitude: '-122.9805' }}
@@ -19,7 +20,7 @@ const BurnabyPage: React.FC = () => {
         <div className="space-y-6 text-lg">
             <h2 className="text-3xl font-bold font-display text-brand-text-primary border-l-4 border-brand-accent pl-4">Burnaby's Most Convenient Auto Detailing Service</h2>
             <p>
-                Convenient Car Spa is proud to bring our five-star mobile car detailing services to the vibrant and diverse city of Burnaby. As a central hub in the Lower Mainland, we know Burnaby residents lead busy lives, juggling commutes, family, and work. Our service is designed for you: we eliminate the need to drive to a detailing shop and wait. Instead, our state-of-the-art mobile detailing van comes directly to your location, whether that's your home, apartment, or workplace.
+                Nano Mobile Detailing is proud to bring our five-star mobile car detailing services to the vibrant and diverse city of Burnaby. As a central hub in the Lower Mainland, we know Burnaby residents lead busy lives, juggling commutes, family, and work. Our service is designed for you: we eliminate the need to drive to a detailing shop and wait. Instead, our state-of-the-art mobile detailing van comes directly to your location, whether that's your home, apartment, or workplace.
             </p>
         </div>
 
@@ -57,10 +58,10 @@ const BurnabyPage: React.FC = () => {
             <ul className="space-y-4 mt-6 text-lg">
                 <li className="flex items-start"><IconCheck /><span><strong>Exterior Detailing:</strong> A thorough hand wash, paint decontamination to remove embedded grime, and a high-gloss paint sealant to protect against road film and UV rays.</span></li>
                 <li className="flex items-start"><IconCheck /><span><strong>Interior Restoration:</strong> We tackle everything from daily dirt to serious spills. Our deep cleaning service includes vacuuming, steam cleaning, and shampooing of carpets and upholstery.</span></li>
-                <li className="flex items-start"><IconCheck /><span><strong>Convenient Plus Package:</strong> The ideal all-in-one solution for busy Burnaby residents, combining essential exterior protection with a comprehensive interior cleaning.</span></li>
+                <li className="flex items-start"><IconCheck /><span><strong>Basic Detail Package:</strong> The ideal all-in-one solution for busy Burnaby residents, combining essential exterior protection with a comprehensive interior cleaning.</span></li>
             </ul>
             <p className="mt-6 text-lg">
-                Experience the ultimate convenience of professional auto detailing. Contact Convenient Car Spa today to schedule your mobile service in Burnaby and give your car the attention it deserves, without the hassle.
+                Experience the ultimate convenience of professional auto detailing. Contact Nano Mobile Detailing today to schedule your mobile service in Burnaby and give your car the attention it deserves, without the hassle.
             </p>
         </div>
     </LocationPageLayout>
