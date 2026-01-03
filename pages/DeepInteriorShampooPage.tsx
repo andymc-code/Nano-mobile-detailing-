@@ -1,3 +1,4 @@
+
 import React, { useEffect } from 'react';
 import FaqAccordion from '../components/FaqAccordion';
 import Breadcrumb from '../components/Breadcrumb';
@@ -5,13 +6,13 @@ import { FAQ_DATA, getWhatsAppLink } from '../constants';
 import { usePageMetadata } from '../hooks/usePageMetadata';
 
 const CheckIcon = () => (
-    <svg className="w-6 h-6 text-brand-accent mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <svg className="w-6 h-6 text-brand-gold mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
     </svg>
 );
 
 const DeepInteriorShampooPage: React.FC = () => {
-    const pageTitle = 'Deep Interior Shampoo Service Vancouver | Convenient Car Spa';
+    const pageTitle = 'Deep Interior Shampoo Service Vancouver | Nano Mobile';
     const pageDescription = 'Revitalize your car\'s interior with our mobile deep shampoo service in Vancouver. We use hot water extraction to remove tough stains from carpets and seats.';
     usePageMetadata(pageTitle, pageDescription);
 
@@ -24,7 +25,7 @@ const DeepInteriorShampooPage: React.FC = () => {
             "description": pageDescription,
             "provider": {
                 "@type": "AutoDetailing",
-                "name": "Convenient Car Spa"
+                "name": "Nano Mobile Detailing"
             },
             "areaServed": {
                 "@type": "GeoCircle",
@@ -39,26 +40,8 @@ const DeepInteriorShampooPage: React.FC = () => {
         serviceScript.innerHTML = JSON.stringify(serviceSchema);
         document.head.appendChild(serviceScript);
 
-        // FAQ Schema
-        const faqItems = FAQ_DATA.shampoo;
-        const faqSchema = {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": faqItems.map(item => ({
-                "@type": "Question",
-                "name": item.question,
-                "acceptedAnswer": { "@type": "Answer", "text": item.answer }
-            }))
-        };
-        const faqScript = document.createElement('script');
-        faqScript.type = 'application/ld+json';
-        faqScript.id = 'faq-schema';
-        faqScript.innerHTML = JSON.stringify(faqSchema);
-        document.head.appendChild(faqScript);
-        
         return () => {
             document.getElementById('service-schema')?.remove();
-            document.getElementById('faq-schema')?.remove();
         };
     }, [pageDescription]);
 
@@ -72,17 +55,17 @@ const DeepInteriorShampooPage: React.FC = () => {
             </div>
             <div className="container mx-auto px-6 py-16">
                  <div className="mb-8">
-                    <Breadcrumb paths={[{ name: 'Services', path: '/#services' }, { name: 'Deep Interior Shampoo', path: '/deep-interior-shampoo' }]} />
+                    <Breadcrumb paths={[{ name: 'Services', path: '/services' }, { name: 'Deep Interior Shampoo', path: '/deep-interior-shampoo' }]} />
                 </div>
 
                 <div className="grid lg:grid-cols-5 gap-12">
                     <div className="lg:col-span-3">
-                        <h2 className="text-3xl font-bold font-display text-white mb-4">REVITALIZE YOUR FABRICS.</h2>
+                        <h2 className="text-3xl font-bold font-display text-white mb-4 uppercase tracking-tighter">REVITALIZE YOUR <span className="text-brand-gold">FABRICS.</span></h2>
                         <p className="text-brand-text-secondary mb-6 leading-relaxed">
                            Our Deep Interior Shampoo service focuses on what matters most: your carpets, mats, and fabric seats. Using professional-grade hot water extraction and specialized shampoos, we lift away years of ground-in dirt, spills, and tough stains, leaving your fabrics clean, fresh, and revitalized. It's the perfect solution for targeting specific problem areas or refreshing your vehicle's interior after a long season.
                         </p>
                         
-                        <h3 className="text-2xl font-semibold font-display text-white mt-10 mb-6">OUR PROCESS INCLUDES:</h3>
+                        <h3 className="text-2xl font-semibold font-display text-white mt-10 mb-6 tracking-widest uppercase">OUR PROCESS INCLUDES:</h3>
                         <ul className="space-y-4 text-brand-text-secondary">
                            <li className="flex items-center"><CheckIcon /><span>Thorough Pre-Vacuuming of Fabric Surfaces</span></li>
                             <li className="flex items-center"><CheckIcon /><span>Pre-Treatment of Spots & Stains</span></li>
@@ -94,18 +77,18 @@ const DeepInteriorShampooPage: React.FC = () => {
                             href={getWhatsAppLink("Hi! I'm interested in the Deep Interior Shampoo service.")}
                             target="_blank" 
                             rel="noopener noreferrer" 
-                            className="mt-10 inline-block bg-brand-accent text-brand-dark-bg font-bold py-3 px-8 rounded-md hover:opacity-90 transition-colors uppercase font-display tracking-widest"
+                            className="mt-10 inline-block bg-brand-gold text-brand-dark-bg font-bold py-3 px-8 rounded-full hover:opacity-90 transition-colors uppercase font-display tracking-widest text-sm"
                         >
                             Book This Service
                         </a>
                     </div>
                     <div className="lg:col-span-2">
-                        <img src="https://images.unsplash.com/photo-1583600585315-779cf5b99a43?q=80&w=2574&auto=format&fit=crop" alt="Close up of a clean car seat fabric" className="rounded-lg shadow-xl object-cover h-full w-full" />
+                        <img src="https://images.unsplash.com/photo-1583600585315-779cf5b99a43?q=80&w=2574&auto=format&fit=crop" alt="Close up of a clean car seat fabric" className="rounded-2xl shadow-xl object-cover h-full w-full border border-brand-border" />
                     </div>
                 </div>
 
-                <div className="mt-24">
-                    <h2 className="text-3xl font-bold font-display text-white text-center mb-10 uppercase">Frequently Asked Questions</h2>
+                <div className="mt-24 border-t border-brand-border pt-24">
+                    <h2 className="text-3xl font-bold font-display text-white text-center mb-10 uppercase tracking-tighter">Shampoo <span className="text-brand-gold">Science FAQs</span></h2>
                     <FaqAccordion items={FAQ_DATA.shampoo} />
                 </div>
             </div>

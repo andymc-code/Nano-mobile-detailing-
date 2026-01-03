@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { getWhatsAppLink, DEFAULT_WHATSAPP_MESSAGE } from '../constants';
 
 const HeroSection: React.FC = () => {
@@ -41,12 +42,12 @@ const HeroSection: React.FC = () => {
                         >
                             Schedule a Detail
                         </a>
-                        <a 
-                            href="#pricing"
-                            className="bg-transparent border-2 border-brand-gold/30 text-brand-text-primary font-bold py-5 px-12 rounded-full text-lg hover:border-brand-gold hover:bg-brand-gold/5 transition-all uppercase tracking-widest font-display"
+                        <Link 
+                            to="/pricing"
+                            className="bg-transparent border-2 border-brand-gold/30 text-brand-text-primary font-bold py-5 px-12 rounded-full text-lg hover:border-brand-gold hover:bg-brand-gold/5 transition-all uppercase tracking-widest font-display flex items-center justify-center"
                         >
                             View Packages
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

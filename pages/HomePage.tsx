@@ -30,8 +30,8 @@ const HomePage: React.FC = () => {
         <div>
             <HeroSection />
             <ProcessSection />
-            <TestimonialsSection />
             <ServicesSection />
+            <TestimonialsSection />
             <GallerySection />
             <PricingSection />
             <WhyChooseUsSection />

@@ -1,3 +1,4 @@
+
 import { Service, PricingPackage, GalleryItem, Testimonial } from './types';
 
 export const SERVICES_DATA: Service[] = [
@@ -6,7 +7,10 @@ export const SERVICES_DATA: Service[] = [
   { name: 'Complete Detail', description: 'The ultimate restoration for both interior and exterior surfaces to achieve a showroom finish.', image: 'https://images.unsplash.com/photo-1616422285923-45a7c244ab43?q=80&w=2670&auto=format&fit=crop', link: '/deep-interior-shampoo' },
   { name: 'Ceramic Coating', description: 'High-performance nano-tech paint protection for long-lasting mirror shine and durability.', image: 'https://ik.imagekit.io/wnwu0xxx5/Auto_detailing/Blur_bmwm4_ceramiccoated.png?updatedAt=1759719374116', link: '/ceramic-coating' },
   { name: 'Paint Correction', description: 'Advanced machine polishing to remove swirls and scratches, restoring paint clarity.', image: 'https://ik.imagekit.io/wnwu0xxx5/Auto_detailing/yellow_lambo.png', link: '/paint-correction' },
-  { name: 'Odor & Mold Remediation', description: 'Deep sanitization and ozone treatments to ensure a healthy and fresh cabin environment.', image: 'https://ik.imagekit.io/wnwu0xxx5/Auto_detailing/Odor_Elimination.png', link: '/odor-elimination' },
+  { name: 'Odor Elimination', description: 'Molecular ozone treatments to permanently delete stubborn cabin odors.', image: 'https://ik.imagekit.io/wnwu0xxx5/Auto_detailing/Odor_Elimination.png', link: '/odor-elimination' },
+  { name: 'Black Trim Restoration', description: 'Revive faded plastic trim to a deep, factory-fresh black finish.', image: 'https://ik.imagekit.io/wnwu0xxx5/Auto_detailing/Black_Trim_Restoration.png', link: '/black-trim-restoration' },
+  { name: 'Mold Remediation', description: 'Safe, bio-grade eradication of hazardous mold spores for a healthy cabin.', image: 'https://images.unsplash.com/photo-1603106915313-64a4d3340052?q=80&w=2670&auto=format&fit=crop', link: '/mold-removal' },
+  { name: 'Fleet Detailing', description: 'Scalable on-site detailing solutions for commercial vehicle fleets.', image: 'https://images.unsplash.com/photo-1617015452627-4b933023a1a5?q=80&w=2670&auto=format&fit=crop', link: '/fleet-detailing' },
 ];
 
 export const TESTIMONIALS_DATA: Testimonial[] = [
@@ -64,7 +68,6 @@ export const GALLERY_DATA: GalleryItem[] = [
   { before: 'https://ik.imagekit.io/wnwu0xxx5/Auto_detailing/Odor_Elimination.png', after: 'https://ik.imagekit.io/wnwu0xxx5/Auto_detailing/Interior%20Restoration_card.png', title: 'Deep Shampoo & Odor Removal' },
 ];
 
-// Added missing FAQ categories for specific service pages
 export const FAQ_DATA = {
     general: [
         { question: 'What makes Nano Mobile Detailing "Your Car\'s Best Friend"?', answer: 'We treat every vehicle as if it were our own. This means using only pH-neutral chemicals that won\'t degrade your clear coat, employing the two-bucket wash method to prevent swirl marks, and utilizing specialized tools like dual-action polishers that provide maximum shine without heat damage.' },
