@@ -2,10 +2,9 @@
 import React from 'react';
 import LocationPageLayout from '../../components/LocationPageLayout';
 
-const IconRain = () => <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M12 19c-4.418 0-8-3.582-8-8a8.004 8.004 0 015-7.416M12 19c4.418 0 8-3.582 8-8a8.004 8.004 0 00-5-7.416M12 19v2" /><path strokeLinecap="round" strokeLinejoin="round" d="M7 13a5 5 0 1110 0" /></svg>;
-const IconClock = () => <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>;
-const IconBuilding = () => <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5"><path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m-1 4h1m5-8h1m-1 4h1m-1 4h1M5 7h1m-1 4h1m-1 4h1" /></svg>;
-const IconCheck = () => <svg className="w-6 h-6 text-brand-accent mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>;
+const IconRain = () => <svg className="h-10 w-10 text-brand-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1"><path strokeLinecap="round" strokeLinejoin="round" d="M12 19c-4.418 0-8-3.582-8-8a8.004 8.004 0 015-7.416M12 19c4.418 0 8-3.582 8-8a8.004 8.004 0 00-5-7.416M12 19v2" /><path strokeLinecap="round" strokeLinejoin="round" d="M7 13a5 5 0 1110 0" /></svg>;
+const IconClock = () => <svg className="h-10 w-10 text-brand-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1"><path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>;
+const IconBuilding = () => <svg className="h-10 w-10 text-brand-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1"><path strokeLinecap="round" strokeLinejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m-1 4h1m5-8h1m-1 4h1m-1 4h1M5 7h1m-1 4h1m-1 4h1" /></svg>;
 
 const VancouverPage: React.FC = () => {
   return (
@@ -17,55 +16,82 @@ const VancouverPage: React.FC = () => {
       imageUrl="https://ik.imagekit.io/wnwu0xxx5/Auto_detailing/matt-wang-dBp9dbQCh4Q-unsplash.jpg?updatedAt=1759732296928"
       geo={{ latitude: '49.2827', longitude: '-123.1207' }}
     >
-        <div className="space-y-6 text-lg">
-            <h2 className="text-3xl font-bold font-display text-brand-text-primary border-l-4 border-brand-accent pl-4">Your Premier Mobile Detailing Service in Vancouver, BC</h2>
-            <p>
-                Welcome to Nano Mobile Detailing, Vancouver's top choice for professional mobile auto detailing. In a city as vibrant and fast-paced as ours, finding time to take your vehicle to a traditional detailer is a luxury not everyone has. That's where we come in. We bring the complete, premium car care experience directly to your home, apartment, or office, anywhere in Vancouver. From the bustling streets of Downtown to the serene avenues of Kitsilano, our fully-equipped mobile units are ready to restore your vehicle's brilliance.
-            </p>
-            <p>
-                We understand the unique challenges Vancouver car owners face. The persistent rain ("liquid sunshine") leaves stubborn water spots, the sea salt air from the coast can accelerate corrosion, and tight condo parkades make washing your own car nearly impossible. Our services are specifically designed to combat these local issues, providing your vehicle with the protection it needs to look its best in the Pacific Northwest climate.
-            </p>
-        </div>
-
-        <div className="my-16">
-            <h2 className="text-3xl font-bold font-display text-brand-text-primary border-l-4 border-brand-accent pl-4 mb-6">Full-Service Detailing in Your Neighbourhood</h2>
-            <p className="text-lg">
-                Our service radius covers the entire City of Vancouver. We are proud to serve clients in numerous neighbourhoods, including:
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-                <div className="bg-brand-surface border border-brand-border p-6 rounded-lg"><h3 className="text-xl font-semibold text-brand-accent">Downtown & Yaletown</h3><p className="text-brand-text-secondary mt-2">Perfect for busy professionals. We can detail your car in your office building's parkade while you work, saving you valuable time.</p></div>
-                <div className="bg-brand-surface border border-brand-border p-6 rounded-lg"><h3 className="text-xl font-semibold text-brand-accent">Kitsilano & Point Grey</h3><p className="text-brand-text-secondary mt-2">Protect your vehicle from the salty air near the beaches. We'll get your car looking pristine for that drive along NW Marine Drive or a trip to Spanish Banks.</p></div>
-                <div className="bg-brand-surface border border-brand-border p-6 rounded-lg"><h3 className="text-xl font-semibold text-brand-accent">Mount Pleasant & Main Street</h3><p className="text-brand-text-secondary mt-2">For the creative and community-focused, we offer flexible scheduling to fit your dynamic lifestyle, ensuring your car reflects your attention to detail.</p></div>
-                <div className="bg-brand-surface border border-brand-border p-6 rounded-lg"><h3 className="text-xl font-semibold text-brand-accent">East Vancouver</h3><p className="text-brand-text-secondary mt-2">From Commercial Drive to Hastings-Sunrise, we bring our top-tier services to your doorstep, making premium car care accessible to everyone.</p></div>
-            </div>
-             <p className="mt-6 text-lg">
-                Whether you're located near iconic landmarks like <strong>Stanley Park</strong>, shopping on Robson Street, or working near the <strong>Vancouver Convention Centre</strong>, our team can reach you. We navigate the city's traffic so you don't have to.
-            </p>
-        </div>
-
-        <div className="my-16">
-            <h2 className="text-3xl font-bold font-display text-brand-text-primary border-l-4 border-brand-accent pl-4 mb-8">Why Choose Our Mobile Service in Vancouver?</h2>
-            <p className="text-lg mb-8">
-                Choosing Nano Mobile Detailing means choosing unparalleled convenience without compromising on quality. We solve the key challenges Vancouver car owners face:
-            </p>
+        <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div className="space-y-8">
-                <div className="flex items-start space-x-4"><div className="flex-shrink-0 bg-brand-accent/10 text-brand-accent rounded-full p-3"><IconRain /></div><div><h3 className="text-xl font-semibold text-brand-text-primary">The Rain Factor</h3><p className="text-brand-text-secondary mt-1">Vancouver's constant drizzle can leave mineral-rich water spots that etch into your paint. Our paint decontamination and sealant services create a hydrophobic barrier, making water bead and roll off, keeping your car cleaner for longer.</p></div></div>
-                <div className="flex items-start space-x-4"><div className="flex-shrink-0 bg-brand-accent/10 text-brand-accent rounded-full p-3"><IconClock /></div><div><h3 className="text-xl font-semibold text-brand-text-primary">No Time & Heavy Traffic</h3><p className="text-brand-text-secondary mt-1">Why spend an hour fighting traffic to get to a detail shop, only to wait longer? We eliminate that stress entirely. We work around your schedule, at your location, turning wasted time into productive time.</p></div></div>
-                <div className="flex items-start space-x-4"><div className="flex-shrink-0 bg-brand-accent/10 text-brand-accent rounded-full p-3"><IconBuilding /></div><div><h3 className="text-xl font-semibold text-brand-text-primary">Condo & Apartment Living</h3><p className="text-brand-text-secondary mt-1">Most strata buildings have strict rules against washing cars in the parkade. Our mobile units are self-sufficient, using specialized techniques to work efficiently and cleanly in almost any parking situation.</p></div></div>
+                <h2 className="text-4xl font-bold font-display text-white uppercase tracking-tighter leading-tight">
+                    Premium Care for the <br/>
+                    <span className="text-brand-gold">Vancouver Lifestyle.</span>
+                </h2>
+                <p className="text-lg text-brand-text-secondary leading-relaxed">
+                    Welcome to the flagship mobile detailing lab for the City of Vancouver. We understand that in a city as vibrant and fast-paced as ours, your time is your most valuable asset. Nano Mobile Detailing brings the full-service "Auto Spa" experience directly to your doorstep, whether you're at a high-rise office downtown or a waterfront home in Kitsilano.
+                </p>
+                <div className="bg-brand-gold/5 border-l-4 border-brand-gold p-6 rounded-r-2xl italic">
+                    "Our mobile labs are 100% self-sufficient—carrying our own filtered water and silent power generators."
+                </div>
+            </div>
+            <div className="bg-brand-dark-bg/60 p-10 rounded-[32px] border border-brand-border shadow-2xl">
+                <h3 className="text-xl font-bold font-display text-white uppercase tracking-widest mb-8">Vancouver Impact</h3>
+                <div className="grid grid-cols-2 gap-6">
+                    <div className="text-center p-6 bg-brand-surface rounded-2xl border border-brand-border">
+                        <p className="text-3xl font-black text-brand-gold font-display">1200+</p>
+                        <p className="text-[10px] text-brand-text-secondary uppercase tracking-[0.2em] font-bold mt-2">Cars Detailed</p>
+                    </div>
+                    <div className="text-center p-6 bg-brand-surface rounded-2xl border border-brand-border">
+                        <p className="text-3xl font-black text-brand-gold font-display">5.0</p>
+                        <p className="text-[10px] text-brand-text-secondary uppercase tracking-[0.2em] font-bold mt-2">Avg. Review</p>
+                    </div>
+                    <div className="text-center p-6 bg-brand-surface rounded-2xl border border-brand-border">
+                        <p className="text-3xl font-black text-brand-gold font-display">100%</p>
+                        <p className="text-[10px] text-brand-text-secondary uppercase tracking-[0.2em] font-bold mt-2">Mobile Lab</p>
+                    </div>
+                    <div className="text-center p-6 bg-brand-surface rounded-2xl border border-brand-border">
+                        <p className="text-3xl font-black text-brand-gold font-display">15+</p>
+                        <p className="text-[10px] text-brand-text-secondary uppercase tracking-[0.2em] font-bold mt-2">Neighborhoods</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div className="my-16">
-            <h2 className="text-3xl font-bold font-display text-brand-text-primary border-l-4 border-brand-accent pl-4 mb-6">Our Comprehensive Mobile Detailing Packages</h2>
-            <p className="text-lg">We offer a range of services to meet the diverse needs of Vancouver drivers. Our most popular options include:</p>
-            <ul className="space-y-4 mt-6 text-lg">
-                <li className="flex items-start"><IconCheck /><span><strong>Basic Detail Package:</strong> Our most popular choice, this package includes a thorough exterior wash, paint decontamination, a durable 6-month paint sealant, plus a full interior vacuum and wipe-down.</span></li>
-                <li className="flex items-start"><IconCheck /><span><strong>Interior Restoration:</strong> Ideal for families or pet owners. We perform a deep clean of all interior surfaces, including steam cleaning and hot water extraction, to remove stains, eliminate odors, and sanitize your cabin.</span></li>
-                <li className="flex items-start"><IconCheck /><span><strong>Ceramic Coating:</strong> For the ultimate long-term protection against Vancouver's harsh weather. A ceramic coating provides years of gloss, scratch resistance, and makes washing your car incredibly easy.</span></li>
-            </ul>
-            <p className="mt-6 text-lg">
-                Don't let your busy schedule or the Vancouver weather dictate the condition of your car. Experience the ultimate in convenience and quality with our mobile detailing service. We are committed to providing a flawless finish and exceptional customer service, every time.
-            </p>
+        <div className="mt-32">
+            <h2 className="text-3xl font-bold font-display text-white text-center mb-12 uppercase tracking-tighter">Neighborhood <span className="text-brand-gold">Spotlight</span></h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                {[
+                    { name: 'Downtown & Yaletown', desc: 'Expert parkade detailing for busy professionals.' },
+                    { name: 'Kitsilano', desc: 'Coastal protection from salt air and sea mist.' },
+                    { name: 'Point Grey', desc: 'Luxury restoration for high-end automotive assets.' },
+                    { name: 'Mount Pleasant', desc: 'Flexible scheduling for creative communities.' }
+                ].map((area, i) => (
+                    <div key={i} className="group p-8 bg-brand-dark-bg/40 border border-brand-border rounded-3xl hover:border-brand-gold/40 transition-all duration-300">
+                        <h3 className="text-brand-gold font-bold uppercase tracking-widest text-sm mb-3 font-display">{area.name}</h3>
+                        <p className="text-brand-text-secondary text-xs leading-relaxed">{area.desc}</p>
+                    </div>
+                ))}
+            </div>
+        </div>
+
+        <div className="mt-32 py-24 bg-brand-surface/30 rounded-[40px] border border-brand-border">
+            <div className="container mx-auto px-10">
+                <div className="text-center mb-20">
+                    <h2 className="text-3xl md:text-5xl font-bold font-display text-white uppercase tracking-tighter">Combatting the <span className="text-brand-gold">Vancouver Climate</span></h2>
+                </div>
+                <div className="grid md:grid-cols-3 gap-12">
+                    <div className="text-center space-y-6">
+                        <div className="flex justify-center"><IconRain /></div>
+                        <h3 className="text-xl font-bold font-display text-white uppercase tracking-widest">The Acid Rain Factor</h3>
+                        <p className="text-sm text-brand-text-secondary leading-relaxed">Vancouver's frequent rain leaves mineral deposits. Our hydrophobic coatings ensure water beads and rolls off, preventing etching.</p>
+                    </div>
+                    <div className="text-center space-y-6">
+                        <div className="flex justify-center"><IconBuilding /></div>
+                        <h3 className="text-xl font-bold font-display text-white uppercase tracking-widest">Parkade Specialist</h3>
+                        <p className="text-sm text-brand-text-secondary leading-relaxed">Most condos prohibit washing. We use self-contained labs and specialized techniques to work cleanly in any parkade or underground.</p>
+                    </div>
+                    <div className="text-center space-y-6">
+                        <div className="flex justify-center"><IconClock /></div>
+                        <h3 className="text-xl font-bold font-display text-white uppercase tracking-widest">Zero Traffic Stress</h3>
+                        <p className="text-sm text-brand-text-secondary leading-relaxed">Why sit in bridge traffic or fight through Robson Street? We handle the logistics and come to you at home or work.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </LocationPageLayout>
   );
