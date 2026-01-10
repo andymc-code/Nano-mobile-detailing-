@@ -14,10 +14,38 @@ export const SERVICES_DATA: Service[] = [
 ];
 
 export const TESTIMONIALS_DATA: Testimonial[] = [
-  { quote: "Nano Mobile transformed my car. The gold standard in detailing—literally. They came to my office and the results were stunning.", name: "Andrew", location: "West Vancouver" },
-  { quote: "The best detailing in Vancouver. Meticulous, professional, and the 'Your Car's Best Friend' tagline really fits the care they take.", name: "Marcus", location: "Burnaby" },
-  { quote: "Incredible interior restoration. They removed stains I thought were permanent. The new-car feel is real!", name: "Sarah", location: "Richmond" },
-  { quote: "Prompt, high-tech, and amazing results. Love the convenience of them bringing their own water and power.", name: "Ethan", location: "Vancouver" },
+  { 
+    quote: "Nano Mobile transformed my car. The gold standard in detailing—literally. They came to my office and the results were stunning.", 
+    name: "Andrew K.", 
+    location: "West Vancouver",
+    rating: 5,
+    authorImage: "https://i.pravatar.cc/150?u=andrew",
+    date: "2 weeks ago"
+  },
+  { 
+    quote: "The best detailing in Vancouver. Meticulous, professional, and the 'Your Car's Best Friend' tagline really fits the care they take.", 
+    name: "Marcus T.", 
+    location: "Burnaby",
+    rating: 5,
+    authorImage: "https://i.pravatar.cc/150?u=marcus",
+    date: "1 month ago"
+  },
+  { 
+    quote: "Incredible interior restoration. They removed stains I thought were permanent. The new-car feel is real!", 
+    name: "Sarah M.", 
+    location: "Richmond",
+    rating: 5,
+    authorImage: "https://i.pravatar.cc/150?u=sarah",
+    date: "3 weeks ago"
+  },
+  { 
+    quote: "Prompt, high-tech, and amazing results. Love the convenience of them bringing their own water and power.", 
+    name: "Ethan W.", 
+    location: "Vancouver",
+    rating: 5,
+    authorImage: "https://i.pravatar.cc/150?u=ethan",
+    date: "2 months ago"
+  },
 ];
 
 export const PRICING_DATA: PricingPackage[] = [

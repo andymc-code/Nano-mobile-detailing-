@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { getWhatsAppLink, DEFAULT_WHATSAPP_MESSAGE } from '../constants';
+import GoogleReviewsFeed from './GoogleReviewsFeed';
 
 const BookingSection: React.FC = () => {
     return (
@@ -9,6 +10,8 @@ const BookingSection: React.FC = () => {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-brand-gold/5 blur-[120px] rounded-full pointer-events-none"></div>
 
             <div className="container mx-auto px-6 relative z-10">
+                <GoogleReviewsFeed />
+                
                 <div className="bg-brand-surface border border-brand-gold/20 p-8 md:p-16 rounded-[40px] shadow-2xl text-center">
                     <h2 className="text-4xl md:text-5xl font-bold font-display uppercase text-brand-text-primary mb-6">Ready for a <span className="gold-gradient-text gold-glow">Flawless Finish?</span></h2>
                     <p className="text-brand-text-secondary mb-12 max-w-2xl mx-auto leading-relaxed text-lg">
